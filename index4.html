@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>8 MARCH</title>
+
+	<link rel="stylesheet" href="css4/main4.css">
+<script src="js4/music.js" defer></script>
+	<script src="libs4/gsap/gsap.min.js" defer></script>
+	<script src="libs4/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs4/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js4/app4.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Happy 8th of March to you!</div>
+						<div class="layers__title">my dear kitty</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img4/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img4/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img4/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(img4/dungeon.jpg);">
+				<div class="main-article__content">
+					<h2 class="main-article__header"><3</h2>
+					<p class="main-article__paragraph">Дорогой мой человечек, спасибо за практически 2 года счастья, радости, вдохновения, нежности и страсти. Это были лучшие почти два года в моей жизни. Поздравляю тебя с твоим праздником и верю, что впереди у тебя еще много волшебных моментов и радостных минут. Желаю нам никогда не ссориться и всегда находить компромиссы!</p>
+				</div>
+				<div class="custom-audio-player">
+					<audio id="myAudio" src="пока-пора.mp3"></audio>
+					<span class="track-name">пока-пора</span>  <!-- Название трека -->
+					<button id="playPauseBtn">PLAY</button>
+					<span class="time">
+					  <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+					</span>
+					<input type="range" id="progressBar" class="progress" min="0" max="100" value="0" step="0.1"> <!-- Progress bar -->
+					<input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+
+				</div>
+			</article>
+
+		</div>
+	</div>
+	<button class="fixed-button" onclick="window.location.href='index2.html'">Назад</button>
+</body>
+</html>
